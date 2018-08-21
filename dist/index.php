@@ -25,7 +25,7 @@
   <section class="section-about">
     <div class="container">
       <div class="about-row">
-        <h2>About us</h2>
+        <h2>Hello</h2>
         <p>Mustache hashtag chillwave, DIY gastropub migas cardigan poke hammock chartreuse salvia humblebrag lumbersexual before they sold out. Kale chips iPhone helvetica godard sustainable. Williamsburg seitan chartreuse VHS. Semiotics wayfarers live-edge pok pok. Bitters raclette vexillologist, forage wolf hammock master cleanse cred palo santo pop-up.</p>
         <br/>
         <p>Mixtape copper mug taxidermy, live-edge small batch 3 wolf moon shoreditch keffiyeh direct trade banjo snackwave tofu shabby chic. Narwhal +1 asymmetrical everyday carry chicharrones roof party, mustache forage tote bag man bun.</p>
@@ -37,23 +37,25 @@
   </section>
 
   <section class="section-menu">
-    <h2>menu</h2>
-    <div class="menu-item">
-      <h4>Title 1</h4>
-      <img src="" alt="burger 1">
-      <p>helvetica godard sustainable.</p>
+    <h2>Burgers</h2>
+    <div class="container">
+      <div class="menu-item">
+        <h4>Title 1</h4>
+        <img src="" alt="burger 1">
+        <p>helvetica godard sustainable.</p>
+      </div>
+      <div class="menu-item">
+        <h4>Title 2</h4>
+        <img src="" alt="burger 2">
+        <p>helvetica godard sustainable.</p>
+      </div>
+      <div class="menu-item">
+        <h4>Title 3</h4>
+        <img src="" alt="burger 3">
+        <p>helvetica godard sustainable.</p>
+      </div>
     </div>
-    <div class="menu-item">
-      <h4>Title 2</h4>
-      <img src="" alt="burger 2">
-      <p>helvetica godard sustainable.</p>
-    </div>
-    <div class="menu-item">
-      <h4>Title 3</h4>
-      <img src="" alt="burger 3">
-      <p>helvetica godard sustainable.</p>
-    </div>
-    <div class="full-menu-button"></div>
+    <div class="full-menu-button">full menu</div>
   </section>
 
   <section class="section-reviews">

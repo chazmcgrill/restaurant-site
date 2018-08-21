@@ -140,7 +140,8 @@ h2 {
 .container {
   display: flex;
   padding: 50px 100px;
-  border: 1px solid red; }
+  border: 1px solid red;
+  justify-content: space-between; }
 
 header {
   background: lightblue;
@@ -173,10 +174,18 @@ header {
 h1 {
   padding-top: 160px; }
 
-.section-about {
-  min-height: 500px; }
-
 .about-row {
   border: 1px solid red;
-  padding: 0 20px;
   width: 50%; }
+
+.section-menu {
+  border: 1px solid red;
+  padding: 80px 0;
+  text-align: center;
+  background: lightblue; }
+  .section-menu .container {
+    justify-content: space-around; }
+  .section-menu .full-menu-button {
+    margin-top: 20px; }
+  .section-menu p {
+    font-size: 0.6rem; }
