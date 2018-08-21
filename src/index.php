@@ -15,9 +15,11 @@
       <div class="nav-menu">menu</div>
     </nav>
     
-    <h1>The worlds number one burger</h1>
-    <div class="order-btn">Order</div>
-    <div class="scroll-sign">scroll down</div>
+    <div class="header-content">
+      <h1>The worlds number one burger</h1>
+      <div class="order-btn">Order</div>
+      <div class="scroll-sign">scroll down</div>
+    </div>
   </header>
 
   <section class="section-about">
