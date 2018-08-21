@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="container">
       <div class="social-icons">a b c d</div>
       <div class="logo">Burgers</div>
       <div class="nav-menu">menu</div>
@@ -99,17 +99,52 @@
   </section>
 
   <section class="section-find-us">
-    <h2>find us</h2>
-    <div class="find-us-map">
-      map goes here...
+    <div class="container">
+      <div class="find-us-box">
+        <h2>find us</h2>
+        <div class="find-us-locations">
+          <div class="find-us-address">
+            <h5>Leeds</h5>
+            <p>ABC Street Name</p>
+            <p>LEEDS</p>
+            <p>LS1 3AB</p>
+          </div>
+          <div class="find-us-address">
+            <h5>Manchester</h5>
+            <p>ABC Street Name</p>
+            <p>MANCHESTER</p>
+            <p>M1 3AB</p>
+          </div>
+          <div class="find-us-address">
+            <h5>London</h5>
+            <p>ABC Street Name</p>
+            <p>LONDON</p>
+            <p>E1 3AB</p>
+          </div>
+        </div>
+        <div class="find-us-map">
+          map goes here...
+        </div>
+      </div>
     </div>
   </section>
 
   <footer>
-    <nav></nav>
-    <div class="footer-address">
-      <strong>City</strong>
-      <p>123 Street Name, City, PO BOX 123</p>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>about</li>
+          <li>menu</li>
+          <li>reviews</li>
+        </ul>
+      </nav>
+      <div class="social-icons">a b c d</div>
+      <div class="footer-address">
+        <h5>Leeds</h5>
+        <p>ABC Street Name</p>
+        <p>LEEDS</p>
+        <p>LS1 3AB</p>
+      </div>
     </div>
   </footer>
 
