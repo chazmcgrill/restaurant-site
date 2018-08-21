@@ -139,9 +139,14 @@ h2 {
 
 .container {
   display: flex;
-  padding: 50px 100px;
+  max-width: 950px;
+  margin: 0 auto;
   border: 1px solid red;
   justify-content: space-between; }
+
+section {
+  border: 1px solid blue;
+  padding: 80px 20px; }
 
 header {
   background: lightblue;
@@ -180,7 +185,6 @@ h1 {
 
 .section-menu {
   border: 1px solid red;
-  padding: 80px 0;
   text-align: center;
   background: lightblue; }
   .section-menu .container {
@@ -189,3 +193,18 @@ h1 {
     margin-top: 20px; }
   .section-menu p {
     font-size: 0.6rem; }
+
+.section-reviews h2 {
+  text-align: center; }
+
+.review-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.8rem; }
+
+.review-item {
+  font-size: 0.8rem;
+  border: 1px solid green; }
+  .review-item h5 {
+    font-weight: 700;
+    margin-bottom: 0.5rem; }

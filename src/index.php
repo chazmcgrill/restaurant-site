@@ -60,18 +60,40 @@
 
   <section class="section-reviews">
     <h2>reviews</h2>
-    <div class="review-box">
-      <div class="review-item">
-        <h5>Hipster</h5>
-        <p>Kale chips iPhone helvetica godard sustainable.</p>
-      </div>
-      <div class="review-item">
-        <h5>Chillwave</h5>
-        <p>DIY gastropub migas cardigan poke hammock chartreuse</p>
-      </div>
-      <div class="review-item">
-        <h5>Wayfarers</h5>
-        <p>Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+    <div class="container">
+      <div class="review-box">
+        <div class="review-item">
+          <h5>Hipster</h5>
+          <p>Kale chips iPhone helvetica godard sustainable.</p>
+        </div>
+        <div class="review-item">
+          <h5>Chillwave</h5>
+          <p>DIY gastropub migas cardigan poke hammock chartreuse</p>
+        </div>
+        <div class="review-item">
+          <h5>Wayfarers</h5>
+          <p>Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+        </div>
+        <div class="review-item">
+          <h5>Wayfarers</h5>
+          <p>Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+        </div>
+        <div class="review-item">
+          <h5>Hipster</h5>
+          <p>Kale chips iPhone helvetica godard sustainable.</p>
+        </div>
+        <div class="review-item">
+          <h5>Chillwave</h5>
+          <p>DIY gastropub migas cardigan poke hammock chartreuse</p>
+        </div>
+        <div class="review-item">
+          <h5>Wayfarers</h5>
+          <p>Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+        </div>
+        <div class="review-item">
+          <h5>Wayfarers</h5>
+          <p>Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+        </div>
       </div>
     </div>
   </section>
