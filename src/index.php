@@ -9,10 +9,12 @@
 </head>
 <body>
   <header>
-    <nav class="container">
-      <div class="social-icons">a b c d</div>
-      <div class="logo">Burgers</div>
-      <div class="nav-menu">menu</div>
+    <nav>
+      <div class="container">
+        <div class="social-icons">a b c d</div>
+        <div class="logo">Burgers</div>
+        <div class="nav-menu">menu</div>
+      </div>
     </nav>
     
     <div class="header-content">
@@ -30,9 +32,7 @@
         <br/>
         <p>Mixtape copper mug taxidermy, live-edge small batch 3 wolf moon shoreditch keffiyeh direct trade banjo snackwave tofu shabby chic. Narwhal +1 asymmetrical everyday carry chicharrones roof party, mustache forage tote bag man bun.</p>
       </div>
-      <div class="about-row">
-        <img src="#" alt="about image">
-      </div>
+      <div class="about-row about-img"></div>
     </div>
   </section>
 
@@ -41,18 +41,18 @@
     <div class="container">
       <div class="menu-item">
         <h4>Title 1</h4>
-        <img src="" alt="burger 1">
-        <p>helvetica godard sustainable.</p>
+        <p>Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
+        <div class="price">£5.99</div>
       </div>
       <div class="menu-item">
         <h4>Title 2</h4>
-        <img src="" alt="burger 2">
-        <p>helvetica godard sustainable.</p>
+        <p>Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
+        <div class="price">£5.99</div>
       </div>
       <div class="menu-item">
         <h4>Title 3</h4>
-        <img src="" alt="burger 3">
-        <p>helvetica godard sustainable.</p>
+        <p>Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
+        <div class="price">£5.99</div>
       </div>
     </div>
     <div class="full-menu-button">full menu</div>

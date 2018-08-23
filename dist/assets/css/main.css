@@ -125,7 +125,7 @@ table {
 html {
   font-family: "Roboto", sans-serif;
   color: black;
-  font-size: 20px; }
+  font-size: 18px; }
 
 h1 {
   font-size: 3rem;
@@ -150,12 +150,13 @@ section {
 
 header {
   background: lightblue;
-  height: 500px;
+  height: 600px;
   color: white; }
   header nav {
-    display: flex;
-    justify-content: space-between;
     padding: 10px 20px; }
+  header .container {
+    display: flex;
+    justify-content: space-between; }
 
 .header-content {
   border: 1px solid red;
@@ -183,16 +184,33 @@ h1 {
   border: 1px solid red;
   width: 50%; }
 
+.about-img {
+  background-image: url("../img/burger-one.jpg");
+  background-size: cover;
+  background-position: right; }
+
 .section-menu {
   border: 1px solid red;
   text-align: center;
   background: lightblue; }
   .section-menu .container {
     justify-content: space-around; }
-  .section-menu .full-menu-button {
-    margin-top: 20px; }
-  .section-menu p {
-    font-size: 0.6rem; }
+
+.menu-item {
+  max-width: 200px; }
+  .menu-item h4 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px; }
+  .menu-item p {
+    font-size: 0.6rem;
+    margin-bottom: 10px; }
+  .menu-item .price {
+    font-weight: 700; }
+
+.full-menu-button {
+  margin-top: 20px; }
 
 .section-reviews h2 {
   text-align: center; }
@@ -220,10 +238,11 @@ h1 {
 .find-us-locations {
   font-size: 0.7rem;
   display: flex;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  justify-content: space-between; }
 
 .find-us-address {
-  margin-right: 20px; }
+  margin: 0 10px; }
 
 footer {
   font-size: 0.6rem;
