@@ -1,15 +1,22 @@
-// fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700')
+// holds vendor code, helpers, mixins, variables, and general selector styles (body, h1, p, a, etc.)
+@import '01-base/fonts'
+@import '01-base/vars'
+@import '01-base/functions'
+@import '01-base/mixins'
+@import '01-base/normalize'
+@import '01-base/base'
 
-// main
-@import './reset'
-@import './variables'
-@import './globals'
+// holds macro layout styles
+@import '02-layout/grid'
+@import '02-layout/header'
 
-// sections
-@import './sections/header'
-@import './sections/about'
-@import './sections/menu'
-@import './sections/reviews'
-@import './sections/find-us'
-@import './sections/footer'
+// holds micro layouts styles
+@import '03-module/buttons'
+@import '03-module/forms'
+@import '03-module/navs'
+
+// holds state specific code, how buttons look on hover and similar
+@import '04-state/state'
+
+// any hacky css to be later improved
+@import '05-hacks/shame'
