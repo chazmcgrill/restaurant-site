@@ -145,7 +145,9 @@ template {
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #BD5248;
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0; }
 
 .gigantic {
   font-size: 110px;
@@ -153,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -2px; }
 
 .huge, h1 {
-  font-size: 68px;
+  font-size: 82px;
   line-height: 1.05;
   letter-spacing: -1px; }
 
@@ -162,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.14; }
 
 .bigger, h3 {
-  font-size: 26px;
+  font-size: 36px;
   line-height: 1.38; }
 
 .big, h4 {
@@ -174,6 +176,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin: 0 0 20px 0; }
+
+.lead {
+  font-size: 16px; }
 
 em {
   font-style: italic; }
@@ -195,6 +200,12 @@ a {
   a:hover, a:focus {
     color: #d89993; }
 
+ul {
+  padding-left: 0; }
+
+li {
+  list-style: none; }
+
 ::selection {
   background: #FFF498; }
 
@@ -212,12 +223,15 @@ body {
 
 body {
   background: #F6F6F8;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6;
   font-family: "Roboto", sans-serif;
   color: #2E2D33;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
+
+section {
+  padding: 50px 0; }
 
 .row {
   box-sizing: border-box;
@@ -235,10 +249,113 @@ body {
     width: 1160px; }
   .col--half {
     width: 50%; }
+  .col--full {
+    width: 100%; }
 
 @media (max-width: 640px) {
+  section {
+    padding: 50px 0; }
   .row {
-    display: block;
-    margin: 0 10px; }
+    display: block; }
   .col {
     width: 100%; } }
+
+header {
+  background-color: #FA373C;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 50px;
+  height: calc(100vh - 115px);
+  text-align: center;
+  text-transform: uppercase; }
+
+h1 {
+  color: white; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between; }
+
+section.about .about-img {
+  background-color: pink;
+  background-image: url("../img/burger-one.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 400px;
+  margin-right: 15px; }
+  @media (max-width: 640px) {
+    section.about .about-img {
+      margin-right: 0; } }
+
+section.menu-section .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  text-align: center; }
+
+section.menu-section .menu {
+  display: flex;
+  justify-content: space-around; }
+
+section.menu-section .menu-item {
+  max-width: 200px; }
+  section.menu-section .menu-item_title {
+    margin-bottom: 5px; }
+  section.menu-section .menu-item_text {
+    margin-bottom: 10px; }
+  section.menu-section .menu-item_price {
+    font-size: 2rem;
+    font-weight: 700; }
+  section.menu-section .menu-item--selected {
+    padding: 5px;
+    background: #BD5248; }
+
+section.section-reviews h2 {
+  text-align: center; }
+
+section.section-reviews .reviews {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.8rem; }
+  @media (max-width: 640px) {
+    section.section-reviews .reviews {
+      grid-template-columns: repeat(2, 1fr); } }
+
+section.section-reviews .review_user {
+  font-size: 0.8rem; }
+
+section.section-reviews .review_text {
+  margin-top: 0.4rem;
+  font-weight: 500; }
+
+.findus-map {
+  height: 400px;
+  background: lightgrey;
+  padding: 10px;
+  margin: 0 -10px; }
+
+.locations {
+  font-size: 0.7rem;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between; }
+  .locations--address {
+    margin: 0 5px; }
+
+.location--city {
+  margin-bottom: 7px; }
+
+.location--address {
+  margin-bottom: 3px; }
+
+footer {
+  color: white;
+  background: red;
+  font-size: 0.6rem;
+  padding: 30px 0; }
+  footer h5 {
+    color: white; }

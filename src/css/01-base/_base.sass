@@ -5,6 +5,8 @@
 h1, h2, h3, h4, h5, h6
   color: $accent-color
   font-weight: bold
+  text-transform: uppercase
+  margin: 10px 0
 
 .gigantic
   font-size: 110px
@@ -12,7 +14,7 @@ h1, h2, h3, h4, h5, h6
   letter-spacing: -2px
 
 .huge, h1
-  font-size: 68px
+  font-size: 82px
   line-height: 1.05
   letter-spacing: -1px
 
@@ -21,7 +23,7 @@ h1, h2, h3, h4, h5, h6
   line-height: 1.14
 
 .bigger, h3
-  font-size: 26px
+  font-size: 36px
   line-height: 1.38
 
 .big, h4
@@ -33,6 +35,9 @@ h1, h2, h3, h4, h5, h6
 
 p
   margin: 0 0 20px 0
+
+.lead
+  font-size: 16px
 
 em
   font-style: italic
@@ -59,6 +64,15 @@ a
   &:focus
     color: lighten($link-color, 20%)
 
+  
+// Lists
+
+ul
+  padding-left: 0
+
+li
+  list-style: none
+
 
 // Selection Colors
 
@@ -82,7 +96,7 @@ body
 
 body
   background: $bg-color
-  font-size: 16px
+  font-size: 14px
   line-height: 1.6
   font-family: $main-font
   color: $text-color

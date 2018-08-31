@@ -1,0 +1,20 @@
+section.section-reviews
+  h2
+    text-align: center
+
+  .reviews
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 0.8rem
+
+    @media (max-width: 640px)
+      grid-template-columns: repeat(2, 1fr)
+
+  .review
+
+    &_user
+      font-size: 0.8rem
+      
+    &_text
+      margin-top: 0.4rem
+      font-weight: 500

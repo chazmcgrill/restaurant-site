@@ -1,0 +1,29 @@
+section.menu-section
+  .col
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 300px
+    text-align: center
+
+  .menu
+    display: flex
+    justify-content: space-around
+
+  .menu-item
+      max-width: 200px
+
+      &_title
+        margin-bottom: 5px
+
+      &_text
+        margin-bottom: 10px
+
+      &_price
+        font-size: 2rem
+        font-weight: 700
+
+      &--selected
+        padding: 5px
+        background: $accent-color
+    
