@@ -238,18 +238,18 @@ section {
   display: flex;
   flex-direction: row;
   margin: 0 10px; }
-  .row--center {
+  .row_center {
     justify-content: center; }
-  .row--spaced {
+  .row_spaced {
     justify-content: space-around; }
 
 .col {
   width: 580px; }
-  .col--wide {
+  .col_wide {
     width: 1160px; }
-  .col--half {
+  .col_half {
     width: 50%; }
-  .col--full {
+  .col_full {
     width: 100%; }
 
 @media (max-width: 640px) {
@@ -301,19 +301,6 @@ section.menu-section .menu {
   display: flex;
   justify-content: space-around; }
 
-section.menu-section .menu-item {
-  max-width: 200px; }
-  section.menu-section .menu-item_title {
-    margin-bottom: 5px; }
-  section.menu-section .menu-item_text {
-    margin-bottom: 10px; }
-  section.menu-section .menu-item_price {
-    font-size: 2rem;
-    font-weight: 700; }
-  section.menu-section .menu-item--selected {
-    padding: 5px;
-    background: #BD5248; }
-
 section.section-reviews h2 {
   text-align: center; }
 
@@ -325,32 +312,18 @@ section.section-reviews .reviews {
     section.section-reviews .reviews {
       grid-template-columns: repeat(2, 1fr); } }
 
-section.section-reviews .review_user {
-  font-size: 0.8rem; }
-
-section.section-reviews .review_text {
-  margin-top: 0.4rem;
-  font-weight: 500; }
-
-.findus-map {
-  height: 400px;
-  background: lightgrey;
-  padding: 10px;
-  margin: 0 -10px; }
-
-.locations {
-  font-size: 0.7rem;
-  display: flex;
-  margin-bottom: 20px;
-  justify-content: space-between; }
-  .locations--address {
-    margin: 0 5px; }
-
-.location--city {
-  margin-bottom: 7px; }
-
-.location--address {
-  margin-bottom: 3px; }
+section.section-findus {
+  padding-bottom: 0; }
+  section.section-findus .findus-map {
+    height: 400px;
+    background: lightgrey;
+    padding: 10px;
+    margin: 0 -10px; }
+  section.section-findus .locations {
+    font-size: 0.7rem;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between; }
 
 footer {
   color: white;
@@ -359,3 +332,41 @@ footer {
   padding: 30px 0; }
   footer h5 {
     color: white; }
+
+.nav {
+  text-transform: uppercase; }
+  .nav--item {
+    margin: 0 0 3px; }
+    @media (max-width: 640px) {
+      .nav--item {
+        margin: 0 10px 0 0;
+        display: inline-block; }
+        .nav--item:last-child {
+          margin-right: 0; } }
+
+.menu-item {
+  max-width: 200px; }
+  .menu-item--title {
+    margin-bottom: 5px; }
+  .menu-item--text {
+    margin-bottom: 10px; }
+  .menu-item--price {
+    font-size: 2rem;
+    font-weight: 700; }
+  .menu-item_selected {
+    padding: 5px;
+    background: #BD5248; }
+
+.review--user {
+  font-size: 0.8rem; }
+
+.review--text {
+  margin-top: 0.4rem;
+  font-weight: 500; }
+
+.location--city {
+  margin-bottom: 3px; }
+
+.location--address {
+  line-height: 1.3;
+  margin-bottom: 0; }

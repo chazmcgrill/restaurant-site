@@ -20,7 +20,7 @@
   </header>
 
   <section class="about">
-    <div class="row row--spaced">
+    <div class="row row_spaced">
       <div class="col">
         <div class="about-img"></div>
       </div>
@@ -34,24 +34,24 @@
   </section>
 
   <section class="menu-section">
-    <div class="row row--center">
-      <div class="col col--wide">
+    <div class="row row_center">
+      <div class="col col_wide">
         <h2>Burgers</h2>
         <div class="menu">
           <div class="menu-item">
-            <h4 class="menu-item_title">Title 1</h4>
-            <p class="menu-item_text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item_price">£5.99</div>
+            <h4 class="menu-item--title">Title 1</h4>
+            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
+            <div class="menu-item--price">£5.99</div>
           </div>
           <div class="menu-item">
-            <h4 class="menu-item_title">Title 2</h4>
-            <p class="menu-item_text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item_price">£5.99</div>
+            <h4 class="menu-item--title">Title 2</h4>
+            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
+            <div class="menu-item--price">£5.99</div>
           </div>
           <div class="menu-item">
-            <h4 class="menu-item_title">Title 3</h4>
-            <p class="menu-item_text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item_price">£5.99</div>
+            <h4 class="menu-item--title">Title 3</h4>
+            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
+            <div class="menu-item--price">£5.99</div>
           </div>
         </div>
         <div class="full-menu-button">full menu</div>
@@ -60,41 +60,41 @@
   </section>
 
   <section class="section-reviews">
-    <div class="row row--center">
-      <div class="col col--wide">
+    <div class="row row_center">
+      <div class="col col_wide">
         <h2>Reviews</h2>
         <div class="reviews">
           <div class="review">
-            <h5 class="review_user">Hipster</h5>
-            <p class="review_text">Kale chips iPhone helvetica godard sustainable.</p>
+            <h5 class="review--user">Hipster</h5>
+            <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
           </div>
           <div class="review-item">
-            <h5 class="review_user">Chillwave</h5>
-            <p class="review_text">DIY gastropub migas cardigan poke hammock chartreuse</p>
+            <h5 class="review--user">Chillwave</h5>
+            <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
           </div>
           <div class="review-item">
-            <h5 class="review_user">Wayfarers</h5>
-            <p class="review_text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+            <h5 class="review--user">Wayfarers</h5>
+            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
           <div class="review-item">
-            <h5 class="review_user">Wayfarers</h5>
-            <p class="review_text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+            <h5 class="review--user">Wayfarers</h5>
+            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
           <div class="review-item">
-            <h5 class="review_user">Hipster</h5>
-            <p class="review_text">Kale chips iPhone helvetica godard sustainable.</p>
+            <h5 class="review--user">Hipster</h5>
+            <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
           </div>
           <div class="review-item">
-            <h5 class="review_user">Chillwave</h5>
-            <p class="review_text">DIY gastropub migas cardigan poke hammock chartreuse</p>
+            <h5 class="review--user">Chillwave</h5>
+            <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
           </div>
           <div class="review-item">
-            <h5 class="review_user">Wayfarers</h5>
-            <p class="review_text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+            <h5 class="review--user">Wayfarers</h5>
+            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
           <div class="review-item">
-            <h5 class="review_user">Wayfarers</h5>
-            <p class="review_text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
+            <h5 class="review--user">Wayfarers</h5>
+            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
         </div>
       </div>
@@ -102,23 +102,23 @@
   </section>
 
   <section class="section-findus">
-    <div class="row row--center">
-      <div class="col col--wide">
+    <div class="row row_center">
+      <div class="col col_wide">
         <h2>find us</h2>
         <div class="locations">
-          <div class="locations--address">
+          <div class="location">
             <h5 class="location--city">Leeds</h5>
             <p class="location--address">ABC Street Name</p>
             <p class="location--address">LEEDS</p>
             <p class="location--address">LS1 3AB</p>
           </div>
-          <div class="locations--address">
+          <div class="location">
             <h5 class="location--city">Manchester</h5>
             <p class="location--address">ABC Street Name</p>
             <p class="location--address">MANCHESTER</p>
             <p class="location--address">M1 3AB</p>
           </div>
-          <div class="locations--address">
+          <div class="location">
             <h5 class="location--city">London</h5>
             <p class="location--address">ABC Street Name</p>
             <p class="location--address">LONDON</p>
@@ -127,8 +127,8 @@
         </div>
       </div>
     </div>
-    <div class="row row--center">
-      <div class="col col--full">
+    <div class="row row_center">
+      <div class="col col_full">
         <div class="findus-map">
           map goes here...
         </div>
@@ -137,16 +137,16 @@
   </section>
 
   <footer>
-    <div class="row row--spaced">
-      <nav>
+    <div class="row row_spaced">
+      <nav class="nav">
         <ul>
-          <li>about</li>
-          <li>menu</li>
-          <li>reviews</li>
+          <li class="nav--item">about</li>
+          <li class="nav--item">menu</li>
+          <li class="nav--item">reviews</li>
         </ul>
       </nav>
       <div class="social-icons">a b c d</div>
-      <div class="locations-address">
+      <div class="location">
         <h5 class="location--city">Leeds</h5>
         <p class="location--address">ABC Street Name</p>
         <p class="location--address">LEEDS</p>
