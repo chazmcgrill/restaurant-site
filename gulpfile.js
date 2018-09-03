@@ -20,7 +20,7 @@ const paths = {
     dist: 'dist/assets/js'
   },
   img: {
-    src: 'src/img/*',
+    src: 'src/img/**/*',
     dist: 'dist/assets/img'
   }
 }
@@ -46,7 +46,13 @@ gulp.task('image-min', () => {
   return gulp.src(paths.img.src)
     .pipe(plugs.imagemin([
       plugs.imagemin.jpegtran({ progressive: true }),
-      plugs.imagemin.optipng({ optimizationLevel: 5 })
+      plugs.imagemin.optipng({ optimizationLevel: 5 }),
+      plugs.imagemin.svgo({
+        plugins: [
+          { removeViewBox: true },
+          { cleanupIDs: false }
+        ]
+      })
     ]))
     .pipe(gulp.dest(paths.img.dist))
 });

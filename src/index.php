@@ -10,9 +10,14 @@
 <body>
   <header>
     <nav class="navbar">
-      <div class="navbar--icons">a b c d</div>
+      <div class="social-icons">
+        <img src="./assets/img/svg/facebook.svg" alt="">
+        <img src="./assets/img/svg/instagram.svg" alt="">
+        <img src="./assets/img/svg/yelp.svg" alt="">
+        <img src="./assets/img/svg/twitter.svg" alt="">
+      </div>
       <div class="navbar--logo">Burgers</div>
-      <div class="navbar--btn">Order Online</div>
+      <div class="navbar--btn btn">Order Online</div>
     </nav>
     
     <h1>The worlds number one burger</h1>
