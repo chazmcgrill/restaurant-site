@@ -1,8 +1,23 @@
 .location
+  display: block
+  line-height: 1.3
     
   &--city
     margin-bottom: 3px
 
-  &--address
-    line-height: 1.3
+  &--address    
     margin-bottom: 0
+
+  &_footer
+
+    @media (max-width: 640px)
+      margin: 15px 10px
+      display: flex
+      align-items: center
+
+      h5
+        font-size: 1em
+        margin: 0 5px
+
+      .location--address
+        margin: 0 5px
