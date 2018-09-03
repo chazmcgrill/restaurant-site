@@ -354,6 +354,19 @@ footer {
         .nav--item:last-child {
           margin-right: 0; } }
 
+.social-icons {
+  width: 140px;
+  display: flex;
+  justify-content: space-between; }
+  .social-icons--icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    cursor: pointer;
+    transition: fill 0.3s ease-in-out; }
+    .social-icons--icon:hover {
+      fill: black; }
+
 .menu-item {
   max-width: 200px; }
   .menu-item--title {
