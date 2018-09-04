@@ -144,7 +144,7 @@ template {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #BD5248;
+  color: #1450ad;
   font-weight: bold;
   text-transform: uppercase;
   margin: 10px 0; }
@@ -194,11 +194,11 @@ hr {
   height: 0; }
 
 a {
-  color: #BD5248;
+  color: #644157;
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: #d89993; }
+    color: #9f6c8c; }
 
 ul {
   padding-left: 0; }
@@ -207,10 +207,10 @@ li {
   list-style: none; }
 
 ::selection {
-  background: #FFF498; }
+  background: #e4412e; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: #e4412e; }
 
 img::selection {
   background: transparent; }
@@ -219,19 +219,19 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: #e4412e; }
 
 body {
-  background: #F6F6F8;
+  background: #f0efef;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Roboto", sans-serif;
-  color: #2E2D33;
+  color: #0c0424;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
 section {
-  padding: 0 0 90px; }
+  padding: 50px 0 100px; }
 
 .row {
   box-sizing: border-box;
@@ -259,14 +259,14 @@ section {
     width: 100%; } }
 
 header {
-  background-color: #FA373C;
+  background-color: #1450ad;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 10px;
   padding: 50px;
-  height: calc(100vh - 115px);
+  height: calc(100vh - 120px);
   text-align: center;
   text-transform: uppercase; }
 
@@ -289,16 +289,17 @@ section.about .about-img {
     section.about .about-img {
       margin-right: 0; } }
 
-section.menu-section .col {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 300px;
-  text-align: center; }
-
-section.menu-section .menu {
-  display: flex;
-  justify-content: space-around; }
+section.menu-section {
+  background-color: white; }
+  section.menu-section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    text-align: center; }
+  section.menu-section .menu {
+    display: flex;
+    justify-content: space-around; }
 
 section.section-reviews h2 {
   text-align: center; }
@@ -312,6 +313,7 @@ section.section-reviews .reviews {
       grid-template-columns: repeat(2, 1fr); } }
 
 section.section-findus {
+  background-color: white;
   padding-bottom: 0; }
   section.section-findus .findus-map {
     height: 400px;
@@ -326,7 +328,7 @@ section.section-findus {
 
 footer {
   color: white;
-  background: red;
+  background: #644157;
   font-size: 0.8rem;
   padding: 30px 0; }
   footer h5 {
@@ -349,7 +351,7 @@ footer {
   transition: all 0.3s ease-in-out; }
   .btn:hover {
     color: black;
-    background: #FA373C; }
+    background: #1450ad; }
 
 .nav {
   text-transform: uppercase; }
@@ -383,10 +385,11 @@ footer {
     margin-bottom: 10px; }
   .menu-item--price {
     font-size: 2rem;
-    font-weight: 700; }
+    font-weight: 700;
+    color: #644157; }
   .menu-item_selected {
     padding: 5px;
-    background: #BD5248; }
+    background: #644157; }
 
 .review--user {
   font-size: 0.8rem; }
@@ -408,7 +411,6 @@ footer {
       display: flex;
       align-items: center; }
       .location_footer h5 {
-        font-size: 1em;
-        margin: 0 5px; }
-      .location_footer .location--address {
+        font-size: 1em; }
+      .location_footer h5, .location_footer .location--address {
         margin: 0 5px; } }
