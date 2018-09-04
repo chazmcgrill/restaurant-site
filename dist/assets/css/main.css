@@ -285,7 +285,10 @@ section.about .about-img {
   background-position: right;
   height: 400px;
   margin-right: 15px; }
-  @media (max-width: 640px) {
+
+@media (max-width: 640px) {
+  section.about {
+    padding: 0 0 100px; }
     section.about .about-img {
       margin-right: 0; } }
 

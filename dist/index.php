@@ -138,9 +138,7 @@
     </div>
     <div class="row row_center">
       <div class="col col_full">
-        <div class="findus-map">
-          map goes here...
-        </div>
+        <div class="findus-map" id="map"></div>
       </div>
     </div>
   </section>
@@ -173,6 +171,10 @@
     </div>
   </footer>
 
+
   <script src="./assets/js/app.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=<?php $apiKey ?>&callback=initMap" async defer></script>
+
+  
 </body>
 </html>
