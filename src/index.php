@@ -77,31 +77,31 @@
             <h5 class="review--user">Hipster</h5>
             <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
           </div>
-          <div class="review-item">
+          <div class="review">
             <h5 class="review--user">Chillwave</h5>
             <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
           </div>
-          <div class="review-item">
+          <div class="review">
             <h5 class="review--user">Wayfarers</h5>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
-          <div class="review-item">
+          <div class="review">
             <h5 class="review--user">Wayfarers</h5>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
-          <div class="review-item">
+          <div class="review">
             <h5 class="review--user">Hipster</h5>
             <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
           </div>
-          <div class="review-item">
+          <div class="review">
             <h5 class="review--user">Chillwave</h5>
             <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
           </div>
-          <div class="review-item">
+          <div class="review">
             <h5 class="review--user">Wayfarers</h5>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
-          <div class="review-item">
+          <div class="review">
             <h5 class="review--user">Wayfarers</h5>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>

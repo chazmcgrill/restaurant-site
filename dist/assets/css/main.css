@@ -394,12 +394,15 @@ footer {
     padding: 5px;
     background: #644157; }
 
-.review--user {
-  font-size: 0.8rem; }
-
-.review--text {
-  margin-top: 0.4rem;
-  font-weight: 500; }
+.review {
+  background: white;
+  padding: 5px 15px;
+  border-radius: 5px; }
+  .review--user {
+    font-size: 0.8rem; }
+  .review--text {
+    margin-top: 0.4rem;
+    font-weight: 500; }
 
 .location {
   display: block;
