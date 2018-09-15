@@ -401,14 +401,16 @@ footer {
     background: #644157; }
 
 .review {
-  background: white;
-  padding: 5px 15px;
-  border-radius: 5px; }
+  padding: 5px; }
   .review--user {
     font-size: 0.8rem; }
   .review--text {
+    background: white;
     margin-top: 0.4rem;
-    font-weight: 500; }
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-style: italic;
+    box-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.2); }
 
 .location {
   display: block;
