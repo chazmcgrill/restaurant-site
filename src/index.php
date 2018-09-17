@@ -44,19 +44,19 @@
         <h2>Burgers</h2>
         <div class="menu">
           <div class="menu-item">
-            <h4 class="menu-item--title">Title 1</h4>
+            <h4 class="menu-item--title">Big Kahuna Burger</h4>
+            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
+            <div class="menu-item--price">£7.99</div>
+          </div>
+          <div class="menu-item">
+            <h4 class="menu-item--title">Royale with Cheese</h4>
             <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
             <div class="menu-item--price">£5.99</div>
           </div>
           <div class="menu-item">
-            <h4 class="menu-item--title">Title 2</h4>
+            <h4 class="menu-item--title">Double Kahuna</h4>
             <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item--price">£5.99</div>
-          </div>
-          <div class="menu-item">
-            <h4 class="menu-item--title">Title 3</h4>
-            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item--price">£5.99</div>
+            <div class="menu-item--price">£8.99</div>
           </div>
         </div>
         <div class="full-menu-button">full menu</div>
@@ -70,35 +70,107 @@
         <h2>Reviews</h2>
         <div class="reviews">
           <div class="review">
-            <h5 class="review--user">Hipster</h5>
+            <div class="review--top">
+              <h5 class="review--user">Hipster</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
           </div>
           <div class="review">
-            <h5 class="review--user">Chillwave</h5>
+            <div class="review--top">
+              <h5 class="review--user">Chillwave</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
           </div>
           <div class="review">
-            <h5 class="review--user">Wayfarers</h5>
+            <div class="review--top">
+              <h5 class="review--user">Wayfarers</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
           <div class="review">
-            <h5 class="review--user">Wayfarers</h5>
+            <div class="review--top">
+              <h5 class="review--user">Wayfarers</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
           <div class="review">
-            <h5 class="review--user">Hipster</h5>
+            <div class="review--top">
+              <h5 class="review--user">Hipster</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
           </div>
           <div class="review">
-            <h5 class="review--user">Chillwave</h5>
+            <div class="review--top">
+              <h5 class="review--user">Chillwave</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
           </div>
           <div class="review">
-            <h5 class="review--user">Wayfarers</h5>
+            <div class="review--top">
+              <h5 class="review--user">Chillwave</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
           <div class="review">
-            <h5 class="review--user">Wayfarers</h5>
+            <div class="review--top">
+              <h5 class="review--user">Wayfarers</h5>
+              <div class="review--stars">
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+                <?php include("assets/img/SVG/star-checked.svg"); ?>
+              </div>
+            </div>
             <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
           </div>
         </div>
