@@ -207,10 +207,12 @@ li {
   list-style: none; }
 
 ::selection {
-  background: #e4412e; }
+  background: #e4412e;
+  color: #fff; }
 
 ::-moz-selection {
-  background: #e4412e; }
+  background: #e4412e;
+  color: #fff; }
 
 img::selection {
   background: transparent; }
@@ -422,9 +424,16 @@ footer {
   .review--top {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 15px; }
+    @media (max-width: 480px) {
+      .review--top {
+        height: 40px;
+        flex-direction: column;
+        align-items: flex-start; } }
   .review--user {
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    margin: 0; }
   .review--stars {
     display: flex;
     justify-content: space-between;
