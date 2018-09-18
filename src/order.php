@@ -1,4 +1,4 @@
-<div class="order--overlay">
+<div class="order--overlay is-hidden order-btn" id="order-modal">
   <div class="order--modal">
 
     <div class="order--menu">

@@ -17,7 +17,7 @@
         <?php include('assets/img/SVG/twitter.svg'); ?>
       </div>
       <div class="navbar--logo">Burgers</div>
-      <div class="navbar--btn btn btn_nav">Order Online</div>
+      <div class="navbar--btn btn btn_nav order-btn">Order Online</div>
     </nav>
     
     <h1>The worlds number one burger</h1>

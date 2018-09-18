@@ -1,3 +1,19 @@
+// -------- ORDER FORM MODAL 
+
+const orderBtn = document.querySelectorAll('.order-btn');
+const orderForm = document.getElementById('order-modal');
+
+function orderFormToggle() {
+  orderForm.classList.toggle('is-hidden');
+}
+
+orderBtn.forEach(el => {
+  el.addEventListener('click', orderFormToggle);
+});
+
+
+// -------- GOOGLE MAPS
+
 function initMap() {
   
   var myLatLng = { lat: 53.801277, lng: -1.548567 };
@@ -32,3 +48,4 @@ function initMap() {
     title: 'London Restaurant'
   });
 }
+

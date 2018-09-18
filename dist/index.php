@@ -31,7 +31,7 @@
         <?php } ?>
 
       </div>
-      <div class="full-menu-button btn">full menu</div>
+      <div class="full-menu-button btn order-btn">full menu</div>
     </div>
   </div>
 </section>
