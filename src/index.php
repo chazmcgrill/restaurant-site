@@ -1,3 +1,5 @@
+<?php include('data.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,21 +45,13 @@
       <div class="col col_wide">
         <h2>Burgers</h2>
         <div class="menu">
-          <div class="menu-item">
-            <h4 class="menu-item--title">Big Kahuna Burger</h4>
-            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item--price">£7.99</div>
-          </div>
-          <div class="menu-item">
-            <h4 class="menu-item--title">Royale with Cheese</h4>
-            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item--price">£5.99</div>
-          </div>
-          <div class="menu-item">
-            <h4 class="menu-item--title">Double Kahuna</h4>
-            <p class="menu-item--text">Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.</p>
-            <div class="menu-item--price">£8.99</div>
-          </div>
+          <?php foreach($menu as $item) { ?>
+            <div class="menu-item">
+              <h4 class="menu-item--title"><?php echo $item['title']; ?></h4>
+              <p class="menu-item--text"><?php echo $item['text']; ?></p>
+              <div class="menu-item--price">£<?php echo $item['price']; ?></div>
+            </div>
+          <?php } ?>
         </div>
         <div class="full-menu-button btn">full menu</div>
       </div>
