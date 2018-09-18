@@ -91,4 +91,6 @@
   </div>
 </section>
 
+<?php include('order.php'); ?>
+
 <?php include('footer.php'); ?>
