@@ -26,25 +26,28 @@
     <div class="scroll-sign">scroll down</div>
   </header>
 
+
   <section class="about">
     <div class="row row_spaced">
       <div class="col">
         <div class="about-img"></div>
       </div>
       <div class="col">
-        <h3>Hello there!</h3>
-        <p class="lead">Mustache hashtag chillwave, DIY gastropub migas cardigan poke hammock chartreuse salvia humblebrag lumbersexual before they sold out. Kale chips iPhone helvetica godard sustainable. Williamsburg seitan chartreuse VHS. Semiotics wayfarers live-edge pok pok. Bitters raclette vexillologist, forage wolf hammock master cleanse cred palo santo pop-up.</p>
+        <h3><?php echo $about['title']; ?></h3>
+        <p class="lead"><?php echo $about['lead-text']; ?></p>
         <br/>
-        <p>Mixtape copper mug taxidermy, live-edge small batch 3 wolf moon shoreditch keffiyeh direct trade banjo snackwave tofu shabby chic. Narwhal +1 asymmetrical everyday carry chicharrones roof party, mustache forage tote bag man bun.</p>
+        <p><?php echo $about['sub-text']; ?></p>
       </div>
     </div>
   </section>
+
 
   <section class="menu-section">
     <div class="row row_center">
       <div class="col col_wide">
         <h2>Burgers</h2>
         <div class="menu">
+
           <?php foreach($menu as $item) { ?>
             <div class="menu-item">
               <h4 class="menu-item--title"><?php echo $item['title']; ?></h4>
@@ -52,149 +55,58 @@
               <div class="menu-item--price">£<?php echo $item['price']; ?></div>
             </div>
           <?php } ?>
+
         </div>
         <div class="full-menu-button btn">full menu</div>
       </div>
     </div>
   </section>
 
+
   <section class="section-reviews">
     <div class="row row_center">
       <div class="col col_wide">
         <h2>Reviews</h2>
         <div class="reviews">
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Hipster</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star.svg"); ?>
+
+          <?php foreach($reviews as $review) { ?>
+            <div class="review">
+              <div class="review--top">
+                <h5 class="review--user"><?php echo $review['user']; ?></h5>
+                <div class="review--stars">
+                  <?php for($i = 1; $i <= 5; $i++) { 
+                    if ($i <= $review['stars']) { ?>
+                      <?php include("assets/img/SVG/star-checked.svg"); ?>
+                    <?php } else { ?>
+                      <?php include("assets/img/SVG/star.svg"); ?>
+                  <?php } } ?>
+                </div>
               </div>
+              <p class="review--text"><?php echo $review['text']; ?></p>
             </div>
-            <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
-          </div>
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Chillwave</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-              </div>
-            </div>
-            <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
-          </div>
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Wayfarers</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star.svg"); ?>
-              </div>
-            </div>
-            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
-          </div>
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Wayfarers</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-              </div>
-            </div>
-            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
-          </div>
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Hipster</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-              </div>
-            </div>
-            <p class="review--text">Kale chips iPhone helvetica godard sustainable.</p>
-          </div>
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Chillwave</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star.svg"); ?>
-              </div>
-            </div>
-            <p class="review--text">DIY gastropub migas cardigan poke hammock chartreuse</p>
-          </div>
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Chillwave</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-              </div>
-            </div>
-            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
-          </div>
-          <div class="review">
-            <div class="review--top">
-              <h5 class="review--user">Wayfarers</h5>
-              <div class="review--stars">
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-                <?php include("assets/img/SVG/star-checked.svg"); ?>
-              </div>
-            </div>
-            <p class="review--text">Williamsburg seitan chartreuse VHS. Semiotics wayfarers</p>
-          </div>
+          <?php } ?>
+
         </div>
       </div>
     </div>
   </section>
+
 
   <section class="section-findus">
     <div class="row row_center">
       <div class="col col_wide">
         <h2>find us</h2>
         <div class="locations">
-          <div class="location">
-            <h5 class="location--city">Leeds</h5>
-            <p class="location--address">ABC Street Name</p>
-            <p class="location--address">LEEDS</p>
-            <p class="location--address">LS1 3AB</p>
-          </div>
-          <div class="location">
-            <h5 class="location--city">Manchester</h5>
-            <p class="location--address">ABC Street Name</p>
-            <p class="location--address">MANCHESTER</p>
-            <p class="location--address">M1 3AB</p>
-          </div>
-          <div class="location">
-            <h5 class="location--city">London</h5>
-            <p class="location--address">ABC Street Name</p>
-            <p class="location--address">LONDON</p>
-            <p class="location--address">E1 3AB</p>
-          </div>
+
+          <?php foreach($locations as $location) { ?>
+            <div class="location">
+              <h5 class="location--city"><?php echo $location['city']; ?></h5>
+              <?php foreach($location['address'] as $line) { ?>
+                <p class="location--address"><?php echo $line; ?></p>
+              <?php } ?>
+            </div>
+          <?php } ?>
+
         </div>
       </div>
     </div>
@@ -204,6 +116,7 @@
       </div>
     </div>
   </section>
+
 
   <footer>
     <div class="row row_spaced">
@@ -221,10 +134,10 @@
         <?php include('assets/img/SVG/twitter.svg'); ?>
       </div>
       <div class="location location_footer">
-        <h5 class="location--city">Leeds</h5>
-        <p class="location--address">ABC Street Name</p>
-        <p class="location--address">LEEDS</p>
-        <p class="location--address">LS1 3AB</p>
+        <h5 class="location--city"><?php echo $locations[0]['city']; ?></h5>
+        <?php foreach($locations[0]['address'] as $line) { ?>
+          <p class="location--address"><?php echo $line; ?></p>
+        <?php } ?>
       </div>
     </div>
   </footer>
