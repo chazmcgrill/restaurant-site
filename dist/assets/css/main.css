@@ -372,14 +372,23 @@ footer {
 
 .btn {
   padding: 10px 20px;
-  border: 3px solid black;
-  background: black;
+  border: 3px solid #1450ad;
+  background: #fff;
+  color: #1450ad;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  display: inline-block; }
   .btn:hover {
-    color: black;
+    color: #fff;
     background: #1450ad; }
+  .btn_nav {
+    border: 3px solid black;
+    background: black;
+    color: #fff; }
+    .btn_nav:hover {
+      color: black;
+      background: #1450ad; }
 
 .nav {
   text-transform: uppercase; }
