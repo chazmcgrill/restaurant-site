@@ -1,10 +1,7 @@
 section.menu-section
   background-color: white
+  
   .col
-    display: flex
-    flex-direction: column
-    justify-content: space-between
-    height: 300px
     text-align: center
 
   .menu
@@ -12,12 +9,14 @@ section.menu-section
     justify-content: space-around
 
   .full-menu-button
+    margin-top: 20px
     text-transform: uppercase
     font-weight: 500
 
   @media (max-width: 640px)
     .col
       height: auto
+
     .menu
       flex-direction: column
       align-items: center
