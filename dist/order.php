@@ -3,7 +3,7 @@
 
     <div class="order--nav">
       <p>Place your order:</p>
-      <p>Basket</p>
+      <?php include('assets/img/svg/basket.svg'); ?>
     </div>
 
     <div class="order--menu">

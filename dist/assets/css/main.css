@@ -392,6 +392,11 @@ footer {
 .order--nav {
   display: flex;
   justify-content: space-between; }
+  .order--nav p {
+    color: #1450ad;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem; }
 
 .order--menu {
   display: grid;
@@ -407,7 +412,8 @@ footer {
   .order--menu .menu-item {
     background: #fff;
     padding: 20px;
-    max-width: 100%; }
+    max-width: 100%;
+    box-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.2); }
 
 .order--btn {
   margin-top: 0.8rem;
@@ -448,14 +454,6 @@ footer {
   width: 140px;
   display: flex;
   justify-content: space-between; }
-  .social-icons--icon {
-    height: 20px;
-    width: 20px;
-    fill: white;
-    cursor: pointer;
-    transition: fill 0.3s ease-in-out; }
-    .social-icons--icon:hover {
-      fill: black; }
 
 .menu-item {
   max-width: 200px;
@@ -522,6 +520,19 @@ footer {
   fill: lightgrey; }
   .star_checked {
     fill: #1450ad; }
+
+.icon {
+  fill: #1450ad;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  transition: fill 0.3s ease-in-out; }
+  .icon--social {
+    height: 20px;
+    width: 20px;
+    fill: #fff; }
+  .icon:hover {
+    fill: black; }
 
 .is-hidden {
   display: none; }
