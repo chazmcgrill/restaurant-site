@@ -1,5 +1,7 @@
 <?php 
 
+  $title = 'The worlds number one burger';
+
   $about = array(
     'title' => 'Hello there!',
     'lead-text' => 'Mustache hashtag chillwave, DIY gastropub migas cardigan poke hammock chartreuse salvia humblebrag lumbersexual before they sold out. Kale chips iPhone helvetica godard sustainable. Williamsburg seitan chartreuse VHS. Semiotics wayfarers live-edge pok pok. Bitters raclette vexillologist, forage wolf hammock master cleanse cred palo santo pop-up.',

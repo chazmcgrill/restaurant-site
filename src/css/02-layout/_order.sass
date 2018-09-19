@@ -12,15 +12,18 @@
     box-sizing: border-box
     z-index: 2
     background: $bg-color
-    padding: 10px
+    padding: 0.8rem
     width: 80%
     max-width: 800px
     height: calc(100% - 40px)
     margin: 20px auto
     overflow: auto
 
+  &--nav
+    display: flex
+    justify-content: space-between
+
   &--menu
-    padding: 0.8rem
     display: grid
     grid-template-columns: repeat(3, 1fr)
     justify-items: center
@@ -28,11 +31,14 @@
     
     @media (max-width: 780px)
       grid-template-columns: repeat(2, 1fr)
-    @media (max-width: 560px)
+    @media (max-width: 500px)
       grid-template-columns: repeat(1, 1fr)
 
     .menu-item
       background: $bg-white
       padding: 20px
+      max-width: 100%
 
-  
+  &--btn
+    margin-top: 0.8rem
+    text-align: center

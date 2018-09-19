@@ -20,6 +20,6 @@
       <div class="navbar--btn btn btn_nav order-btn">Order Online</div>
     </nav>
     
-    <h1>The worlds number one burger</h1>
+    <h1><?php echo $title; ?></h1>
     <div class="scroll-sign">scroll down</div>
   </header>

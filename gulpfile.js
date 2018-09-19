@@ -71,7 +71,8 @@ gulp.task('browser-sync', () => {
     debug: false
   }, function () {
     browserSync.init({
-      proxy: '127.0.0.1:8080/'
+      proxy: '127.0.0.1:8080/',
+      notify: false
     });
   });
 

@@ -382,15 +382,18 @@ footer {
   box-sizing: border-box;
   z-index: 2;
   background: #f0efef;
-  padding: 10px;
+  padding: 0.8rem;
   width: 80%;
   max-width: 800px;
   height: calc(100% - 40px);
   margin: 20px auto;
   overflow: auto; }
 
+.order--nav {
+  display: flex;
+  justify-content: space-between; }
+
 .order--menu {
-  padding: 0.8rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -398,12 +401,17 @@ footer {
   @media (max-width: 780px) {
     .order--menu {
       grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 560px) {
+  @media (max-width: 500px) {
     .order--menu {
       grid-template-columns: repeat(1, 1fr); } }
   .order--menu .menu-item {
     background: #fff;
-    padding: 20px; }
+    padding: 20px;
+    max-width: 100%; }
+
+.order--btn {
+  margin-top: 0.8rem;
+  text-align: center; }
 
 .btn {
   padding: 10px 20px;

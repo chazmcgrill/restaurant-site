@@ -1,6 +1,11 @@
 <div class="order--overlay is-hidden order-btn" id="order-modal">
   <div class="order--modal">
 
+    <div class="order--nav">
+      <p>Place your order:</p>
+      <p>Basket</p>
+    </div>
+
     <div class="order--menu">
   
       <?php foreach ($menu as $item) { ?>
@@ -11,6 +16,10 @@
         </div>
       <?php } ?>
   
+    </div>
+
+    <div class="order--btn">
+      <div class="btn">View Basket</div>
     </div>
   </div>
 </div>
