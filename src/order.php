@@ -2,13 +2,13 @@
   <div class="order--modal a-slide-out" id="order-modal">
 
     <div class="order--nav">
-      <p>Place your order:</p>
+      <p>Pick your items:</p>
       <div>
         <?php include('assets/img/svg/basket.svg'); ?>
         <?php
           $cross = file_get_contents('assets/img/svg/cross.svg');
-          $cross_order = str_replace('{{class-name}}', 'icon order-btn', $cross);
-          echo $cross_order;
+          $cross_order = str_replace('{{class-name}}', ' order-btn', $cross);
+          echo $cross_order; 
         ?>
       </div>
     </div>
