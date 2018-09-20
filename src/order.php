@@ -3,7 +3,14 @@
 
     <div class="order--nav">
       <p>Place your order:</p>
-      <?php include('assets/img/svg/basket.svg'); ?>
+      <div>
+        <?php include('assets/img/svg/basket.svg'); ?>
+        <?php
+          $cross = file_get_contents('assets/img/svg/cross.svg');
+          $cross_order = str_replace('{{class-name}}', 'icon order-btn', $cross);
+          echo $cross_order;
+        ?>
+      </div>
     </div>
 
     <div class="order--menu">

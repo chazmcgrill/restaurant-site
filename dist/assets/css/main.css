@@ -393,6 +393,8 @@ footer {
   .order--nav {
     display: flex;
     justify-content: space-between; }
+    .order--nav .icon {
+      margin-left: 10px; }
     .order--nav p {
       color: #1450ad;
       font-weight: bold;
