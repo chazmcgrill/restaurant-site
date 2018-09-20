@@ -1,4 +1,4 @@
-<div class="order order--overlay is-hidden order-btn a-fade-out" id="order">
+<div class="order order--overlay is-hidden a-fade-out" id="order">
   <div class="order--modal a-slide-out" id="order-modal">
 
     <div class="order--nav">

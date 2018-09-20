@@ -3,16 +3,20 @@
 const orderBtn = document.querySelectorAll('.order-btn');
 const order = document.getElementById('order');
 const orderModal = document.getElementById('order-modal');
+const body = document.querySelector('body');
 
-let open = false;
-
+// toggle animation classes
 function orderAnimToggle() {
   order.classList.toggle('a-fade-out');
   order.classList.toggle('a-fade-in');
   orderModal.classList.toggle('a-slide-out');
   orderModal.classList.toggle('a-slide-in');
+  body.classList.toggle('is-fixed');
 }
 
+let open = false;
+
+// show hide order modal, and trigger animation toggles
 function orderFormToggle() {
   if (!open) {
     order.classList.remove('is-hidden');
@@ -26,10 +30,15 @@ function orderFormToggle() {
   open = !open;
 }
 
+// click event for any order button click
 orderBtn.forEach(el => {
   el.addEventListener('click', orderFormToggle);
 });
 
+// close model on outside click
+order.addEventListener('click', (e) => {
+  if (e.target.id === 'order' && open) orderFormToggle();
+});
 
 // -------- GOOGLE MAPS
 
