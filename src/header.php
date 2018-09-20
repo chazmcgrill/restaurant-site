@@ -17,9 +17,9 @@
         <?php include('assets/img/SVG/twitter.svg'); ?>
       </div>
       <div class="navbar--logo">Burgers</div>
-      <div class="navbar--btn btn btn_nav order-btn">Order Online</div>
+      <div class="navbar--btn btn btn_nav order-btn a-bounce">Order Online</div>
     </nav>
     
     <h1><?php echo $title; ?></h1>
-    <div class="scroll-sign">scroll down</div>
+    <div class="scroll-sign a-flash">scroll down</div>
   </header>
