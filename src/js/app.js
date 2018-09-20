@@ -6,14 +6,19 @@ const orderModal = document.getElementById('order-modal');
 
 let open = false;
 
+function orderAnimToggle() {
+  order.classList.toggle('a-fade-out');
+  order.classList.toggle('a-fade-in');
+  orderModal.classList.toggle('a-slide-out');
+  orderModal.classList.toggle('a-slide-in');
+}
+
 function orderFormToggle() {
   if (!open) {
-    order.classList.remove('a-fade-out');
     order.classList.remove('is-hidden');
-    order.classList.add('a-fade-in');
+    orderAnimToggle();
   } else {
-    order.classList.remove('a-fade-in');
-    order.classList.add('a-fade-out');
+    orderAnimToggle();
     setTimeout(() => {
       order.classList.add('is-hidden');
     }, 300)

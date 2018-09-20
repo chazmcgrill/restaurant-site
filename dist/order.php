@@ -1,5 +1,5 @@
-<div class="order order--overlay is-hidden order-btn" id="order">
-  <div class="order--modal" id="order-modal">
+<div class="order order--overlay is-hidden order-btn a-fade-out" id="order">
+  <div class="order--modal a-slide-out" id="order-modal">
 
     <div class="order--nav">
       <p>Place your order:</p>

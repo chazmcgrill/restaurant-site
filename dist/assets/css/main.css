@@ -388,7 +388,8 @@ footer {
     max-width: 800px;
     height: calc(100% - 40px);
     margin: 20px auto;
-    overflow: auto; }
+    overflow: auto;
+    transform: translateX(-500px); }
   .order--nav {
     display: flex;
     justify-content: space-between; }
@@ -578,17 +579,21 @@ footer {
 @keyframes slide-in {
   0% {
     transform: translateX(-500px); }
+  90% {
+    transform: translateX(50px); }
   100% {
     transform: translateX(0px); } }
 
 .a-slide-in {
-  animation: slide-in 0.3s ease-in-out; }
+  animation: slide-in 0.3s ease-in-out forwards; }
 
 @keyframes slide-out {
   0% {
     transform: translateX(0px); }
+  10% {
+    transform: translateX(-50px); }
   100% {
     transform: translateX(500px); } }
 
 .a-slide-out {
-  animation: slide-out 0.3s ease-in-out; }
+  animation: slide-out 0.3s ease-in-out forwards; }
