@@ -1,10 +1,24 @@
 // -------- ORDER FORM MODAL 
 
 const orderBtn = document.querySelectorAll('.order-btn');
-const orderForm = document.getElementById('order-modal');
+const order = document.getElementById('order');
+const orderModal = document.getElementById('order-modal');
+
+let open = false;
 
 function orderFormToggle() {
-  orderForm.classList.toggle('is-hidden');
+  if (!open) {
+    order.classList.remove('a-fade-out');
+    order.classList.remove('is-hidden');
+    order.classList.add('a-fade-in');
+  } else {
+    order.classList.remove('a-fade-in');
+    order.classList.add('a-fade-out');
+    setTimeout(() => {
+      order.classList.add('is-hidden');
+    }, 300)
+  }
+  open = !open;
 }
 
 orderBtn.forEach(el => {

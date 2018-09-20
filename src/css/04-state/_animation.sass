@@ -20,3 +20,38 @@
 .a-bounce
   animation: bounce 0.3s cubic-bezier(0.42, 0, 0.53, 1.62)
 
+@keyframes fade-in
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+.a-fade-in
+  animation: fade-in 0.3s linear forwards
+
+@keyframes fade-out
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+
+.a-fade-out
+  animation: fade-out 0.3s linear forwards
+
+@keyframes slide-in
+  0%
+    transform: translateX(-500px)
+  100%
+    transform: translateX(0px)
+
+.a-slide-in
+  animation: slide-in 0.3s ease-in-out
+
+@keyframes slide-out
+  0%
+    transform: translateX(0px)
+  100%
+    transform: translateX(500px)
+
+.a-slide-out
+  animation: slide-out 0.3s ease-in-out
