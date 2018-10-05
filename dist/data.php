@@ -25,34 +25,34 @@
       'price' => 8.99
     ),
     array(
-      'title' => 'Big Kahuna Burger',
+      'title' => 'Vegan Deluxe',
       'text' => 'Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.',
       'price' => 7.99
     ),
     array(
-      'title' => 'Royale with Cheese',
+      'title' => 'Grilled Chicken Burger',
       'text' => 'Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.',
-      'price' => 5.99
+      'price' => 5.69
     ),
     array(
-      'title' => 'Double Kahuna',
+      'title' => 'Double Chicken Tower',
       'text' => 'Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.',
-      'price' => 8.99
+      'price' => 6.99
     ),
     array(
-      'title' => 'Big Kahuna Burger',
+      'title' => 'Loaded Fries',
       'text' => 'Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.',
-      'price' => 7.99
+      'price' => 5.89
     ),
     array(
-      'title' => 'Royale with Cheese',
+      'title' => 'Mega Salad',
       'text' => 'Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.',
-      'price' => 5.99
+      'price' => 6.39
     ),
     array(
-      'title' => 'Double Kahuna',
+      'title' => 'Micro Salad',
       'text' => 'Readymade hammock tbh next level crucifix mumblecore tattooed, yr hot chicken.',
-      'price' => 8.99
+      'price' => 4.39
     )
   );
 
