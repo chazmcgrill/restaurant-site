@@ -16,7 +16,7 @@
         <?php include('assets/img/SVG/yelp.svg'); ?>
         <?php include('assets/img/SVG/twitter.svg'); ?>
       </div>
-      <div class="navbar--logo">Burgers</div>
+      <img src="assets/img/logo.png" alt="logo" class="navbar--logo">
       <div class="navbar--btn btn btn_nav order-btn a-bounce">Order Online</div>
     </nav>
     

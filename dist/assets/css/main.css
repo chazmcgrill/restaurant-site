@@ -279,6 +279,9 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  .navbar--logo {
+    width: 35px;
+    margin: 5px; }
 
 .scroll-sign {
   font-weight: 500; }
