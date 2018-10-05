@@ -289,10 +289,12 @@ h1 {
 @media (max-width: 640px) {
   header {
     padding: 50px 5px; }
+    header h1 {
+      font-size: 3.6rem; }
   .navbar {
     margin: -50px -5px 0 5px; }
     .navbar .social-icons {
-      width: 110px; } }
+      display: none; } }
 
 section.about {
   background: #f0efef; }
