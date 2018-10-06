@@ -448,7 +448,10 @@ footer {
 .nav {
   text-transform: uppercase; }
   .nav--item {
-    margin: 0 0 3px; }
+    margin: 0 0 3px;
+    color: white; }
+    .nav--item:hover {
+      color: black; }
     @media (max-width: 640px) {
       .nav--item {
         margin: 0 10px 0 0;

@@ -2,9 +2,9 @@
     <div class="row row_spaced">
       <nav class="nav">
         <ul>
-          <li class="nav--item">about</li>
-          <li class="nav--item">menu</li>
-          <li class="nav--item">reviews</li>
+          <a href="#about"><li class="nav--item">about</li></a>
+          <a href="#menu"><li class="nav--item">menu</li></a>
+          <a href="#reviews"><li class="nav--item">reviews</li></a>
         </ul>
       </nav>
       <div class="social-icons">
